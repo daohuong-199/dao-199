@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUON KIEP NHAN SINH</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="mkns.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- header section starts -->    
+        <header>
+            <nav class="container">
+                <a href="" class="logo">
+                    <img src="logo.png" width="120px" height="120px" alt="">
+                </a>
+
+                <ul id="main-menu">
+                    <li><a href="index.html">MUÔN KIẾP NHÂN SINH</a></li>
+                </ul>  
+                <ul id="socialIcons">
+                    <li onclick="toggleFullScreen()"><a>
+                        <i id="fullscreen-icon" class="fas fa-expand"></i></a>
+                      </li>
+                    <li><a><i class="fas fa-list-alt"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="biasach.html">BÌA SÁCH</a></li>
+                            <li><a href="trangtrachnhiem.html">TRANG TRÁCH NHIỆM</a></li>
+                            <li><a href="loigioithieu.html">LỜI GIỚI THIỆU</a></li>
+                            <li><a href="">NỘI DUNG</a>
+                                <ul class="sub-menu">
+                                    <li><a href="phanmodau.html">Phần mở đầu: Đài Bắc</a></li>
+                                    <li><a href="phanmot.html">Phần một: Colorado</a></li>
+                                    <li><a href="phanhai.html">Phần hai: Atlantis</a></li>
+                                    <li><a href="phanba.html">Phần ba: Karma</a></li>
+                                    <li><a href="phanbon.html">Phần bốn: Ai Cập</a></li>
+                                    <li><a href="phannam.html">Phần năm: Pharaoh</a></li>
+                                    <li><a href="phansau.html">Phần sáu: Luân hồi các nền văn minh</a></li>
+                                    <li><a href="phanbay.html">Phần bảy: Thành - Trụ hoại - Diệt</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a><i class="fas fa-font"></i></a>
+                        <ul class="sub-text">
+                            <li>
+                                <div class="size">
+                                <span><button onclick="changeSize(1)"><i class="fa-solid fa-plus"></i></button></span>
+                                <span>SIZE</span>
+                                <span><button onclick="changeSize(2)"><i class="fa-solid fa-minus"></i></button></span>
+                                </div>
+                            </li>
+                        
+                            <li><a href="">KIỂU CHỮ &#160;  &#160; &#160; &#709;</a>
+                                <ul class="sub-text">
+                                    <span id="listfont">
+                                        <select onchange="myFunction(this);" size="4">
+                                            <option>Montserrat</option>
+                                            <option>Platypi</option>
+                                            <option>Roboto Slab</option>
+                                            <option>Shantell Sans</option>
+                                        </select>
+                                    </span>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-palette"></i></a>
+                        <ul class="sub-menu">
+                            <div class="colorcontainer">
+                                <span id='1' onclick="color(this)" class='color clr1'></span>
+                                <span id='2' onclick="color(this)" class='color clr2'></span>
+                                <span onclick="color(this)" class='color clr3'></span>
+                                <span onClick="color(this)" class='color clr4'></span>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa fa-search"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        <div id="banner">
+    </div>
+        <!-- header section ends --> 
+        <br>
+       <!-- main content -->
+    <div class="contentdoc" id="text">
+        <div id="text-content">
+            <h1>PHẦN SÁU</h1>
+            <h2>LUÂN HỒI CÁC NỀN VĂN MINH</h2>
+            <h3 style="text-align: center;">KHÔNG CÓ GÌ LÀ MÃI MÃI</h3>
+            <p>Sau buổi gặp gỡ và nói chuyện với ông Kris về kiếp sống tại Ai Cập, tôi chuẩn bị trở về New York. Trước khi ra phi trường, tôi hỏi:</p>
+            <p>- Hôm qua ông nói rằng kiếp sống của tôi tại Atlantis không phải là kiếp sống đầu tiên, vậy thì còn những kiếp sống nào nữa mà tôi không nhớ được?</p>
+            <p>Ông Kris trả lời:</p>
+            <p>- Ông còn nhiều kiếp sống trước đó. Hầu hết mọi người sống trên thế giới này đều trải qua rất nhiều kiếp sống mà không mấy ai nhớ được. Vì không ý thức rõ ràng họ đã làm gì hay đã học được gì trong những kiếp đó nên đa số vẫn luẩn quẩn trong vòng luân hồi. Lúc thế này, khi thế khác, lúc làm người, khi làm thú, hay làm ma quỷ. Ông nên biết, đời sống của mọi người không chỉ mới bắt đầu từ vài ngàn năm nay.</p>
+            <p>Tôi ngạc nhiên:</p>
+            <p>- Nền văn minh của nhân loại chỉ mới bắt đầu khoảng mấy ngàn năm nay, vậy thì đời sống con người thời trước ra sao?</p>
+            <p>Ông Kris giải thích:</p>
+            <p>- Con người đã có mặt trên trái đất này từ lâu lắm rồi. Từ ngàn xưa đã có những nền văn minh mà hiện nay đã biến mất trên bề mặt địa cầu. Các nhà khảo cổ cho rằng nhân loại chỉ bắt đầu sống một cách văn minh khoảng mấy ngàn năm nay vì nền văn minh cổ xưa nhất xuất phát ở vùng Lưỡng Hà thuộc Iraq và Syria, khoảng năm ngàn năm trước Công nguyên. Phần lớn không chấp nhận rằng còn có những nền văn minh khác cổ xưa hơn nữa.</p>
+            <p>Cách đây không lâu, một nhóm khảo cổ đã tìm thấy ngoài sa mạc Gobi, phía Tây Bắc Tây Tạng, vẫn còn di tích một ngôi làng với các vật dụng bằng đá và cống rãnh dẫn nước được ước tính đã hiện hữu vào khoảng mười ngàn năm trước Công nguyên. Không ai biết gì về nền văn minh này nên vẫn còn nhiều tranh cãi, dựa trên quan niệm rằng nền văn minh luôn luôn bắt đầu từ những nơi gần sông hay biển. Một nền văn minh nằm giữa sa mạc là điều không thể chấp nhận. Tuy nhiên, hàng ngàn năm trước, sa mạc Gobi và Tây Tạng vốn là biển cả chứ đâu phải núi non hay sa mạc. Các trận động đất đã đẩy lục địa Ấn lên phía Bắc, hình thành nên dãy Hy Mã Lạp Sơn. Mặc dù các nhà địa chất đã chứng minh điều này nhưng nhiều nhà khảo cổ vẫn giữ lập trường rằng cái nôi văn minh của thế giới xuất phát từ vùng Lưỡng Hà ở Trung Đông, rồi lan ra khắp thế giới.</p>
+            <p>Tôi hỏi:</p>
+            <p>- Tại sao họ lại tin như thế?</p>
+            <p>Ông Kris bật cười:</p>
+            <p>- Vì thiên chấp của các nhà khảo cổ châu Âu cho rằng mọi sự đều phát sinh từ một nơi chốn duy nhất, rồi mới tỏa lan ra các nơi khác. Ít ai chấp nhận rằng đã có nhiều nền văn minh xuất hiện ở các nơi khác nhau trên thế giới. Điều này cũng giống với quan niệm cho rằng tổ tiên loài người thuộc giống vượn bắt nguồn từ châu Phi, rồi sinh con đẻ cái, và di cư đi khắp thế giới. Dĩ nhiên, khi khám phá ra thêm nhiều bằng chứng thì quan niệm này sẽ phải thay đổi.</p>
+            <p>Tôi nói:</p>
+            <p>- Tôi biết về kiếp sống của tôi tại Atlantis, nhưng đã mấy ai tin rằng văn minh thật sự Atlantis hiện hữu. Đa số đều cho rằng đó chỉ là một truyền thuyết đã được Plato phóng đại lên mà thôi.</p>
+            <p>Ông Kris mỉm cười:</p>
+            <p>- Điều này cũng dễ hiểu thôi vì hiện nay chưa có ai tìm thấy bằng chứng nào về nền văn minh này. Trong thời buổi khoa học hiện nay, người ta cần có bằng chứng rõ ràng trước khi đi đến kết luận. Trong trường hợp của ông, sự hiểu biết về các kiếp sống quá khứ sẽ giúp ông có một nhận định rõ rệt về các quy luật vũ trụ như luật Luân hồi và Nhân quả. Từ đó, ông có thể tiếp tục con đường mà ông đã theo đuổi trong nhiều kiếp trước đó. Do vậy, việc nhớ lại những ký ức này chỉ có lợi cho ông mà thôi.</p>
+            <p>Tôi hỏi thêm:</p>
+            <p>- Hôm qua ông nói rằng tôi có khả năng hồi tưởng lại những ký ức tiền kiếp, mà nay đã quên. Việc đó là thế nào?</p>
+            <p>Ông Kris đáp ngay:</p>
+            <p>- Đúng thế, ông đã có khả năng đó từ kiếp trước nhưng biết rằng ông sẽ quên, nên ông yêu cầu tôi giúp. Do đó, chúng ta mới có cơ hội gặp lại nhau trong kiếp này.</p>
+            <p>Tôi sốt sắng hỏi:</p>
+            <p>- Việc đó là thế nào? Ông có thể cho tôi biết được không?</p>
+            <p>Ông Kris mỉm cười, trả lời:</p>
+            <p>- Điều này ông phải tự tìm ra khi hồi tưởng về các kiếp sống trong quá khứ. Nếu tôi nói ra vào lúc này, sẽ không có ích gì mà chỉ làm ông bối rối thêm thôi .</p>
+            <p>Tôi ngạc nhiên:</p>
+            <p>- Vậy tôi phải làm thế nào để tìm lại khả năng đó đây?</p>
+            <p>Ông Kris nghiêm nghị trả lời:</p>
+            <p>- Ông cần phải khôi phục khả năng đó qua công phu tu tập nội quán mà ông đã từng làm trước đây .</p>
+            <p>- Phải chăng ông muốn nói đến việc tập thiền? Tôi phải học thiền ở đâu và như thế nào?</p>
+            <p>- Hiện nay có nhiều nơi dạy thiền nhưng tên gọi này đã bị sử dụng bừa bãi và sai lạc rất nhiều. Có lẽ ông cũng thấy, hầu hết các trung tâm dạy thiền ngày nay đều bị thương mại hóa bởi những người tự xưng là Thiền sư (Zen Master) , Tổ sư (Guru) , Đạo sư (Swami) hay Thánh nhân (Bhagwan). Họ dạy chỉ với mục đích được nổi danh hay để kiếm tiền mà thôi .</p>
+            <p>- Nếu thế tôi phải làm gì?</p>
+            <p>- Trước khi đi xa hơn, chúng ta hãy tránh sử dụng từ thiền trong lúc này. Thiền là từ của Phật giáo nói về phương pháp quán xét nội tâm. Các tôn giáo khác cũng có những phương pháp tương tự nhưng mục đích lại khác hẳn. Phương pháp của Ấn giáo chú trọng vào việc hòa hợp Tiểu Ngã vào Đại Ngã. Phương pháp của Thiên Chúa giáo, hay mặc niệm, chú trọng vào việc quay về với Thượng Đế. Ngoài ra còn có rất nhiều phương pháp của các pháp sư hay phù thủy nhằm vào việc luyện thần thông hay để cho vong linh nhập vào sai khiến. Do đó, khi bắt đầu, ông phải cẩn thận và chỉ nên coi đó là một phương pháp tĩnh tâm để đầu óc yên lặng, không căng thẳng, để điều khiển tư tưởng và cảm xúc trước khi đi xa hơn.</p>
+            <p>- Vậy tôi phải bắt đầu như thế nào?</p>
+            <p>- Nếu ông biết tư tưởng và cảm xúc thường được biểu lộ qua một vài cử chỉ này nọ thì một vài tư thế cũng có khuynh hướng tạo ra những trạng thái và cảm xúc tương ứng. Nhờ biết áp dụng những tư thế này mà thân thể của ông được điều hòa, rồi ông mới có thể đi xa hơn. Phần lớn người phương Tây có thân hình cứng nhắc, chưa quen ngồi xuống đất nên ông có thể bắt đầu bằng việc ngồi trên ghế, giữ lưng thẳng, hai bàn tay đặt trên đầu gối một cách tự nhiên. Hai chân khép lại. Vấn đề chính là thoải mái, không cố gắng hay gò bó. Giữ thẳng thân người, đừng cúi khòm xuống, để luồng sinh khí chạy đều trong cột sống.</p>
+            <p>Tôi hỏi thêm:</p>
+            <p>- Tôi thấy những người tập thiền đều ngồi, vậy thì có gì khác giữa việc ngồi trên ghế và ngồi dưới đất không?</p>
+            <p>Ông Kris kiên nhẫn trả lời:</p>
+            <p>- Khi mới tập, tư thế không quan trọng cho đến khi ông có thể làm chủ được thể xác. Dĩ nhiên, ông có thể ngồi xếp bằng theo các tư thế như bán già hay kiết già. Đối với người Á Đông, ngồi xếp bằng là một động tác tự nhiên nhưng không tiện cho phương Tây. Nếu bắt buộc phải ngồi theo một tư thế nhất định ngay lúc mới tập, điều đó sẽ tạo ra những khó khăn không cần thiết. Ông nên nhớ thể xác thoải mái thì ông mới có thể điều chỉnh hơi thở một cách tự nhiên. Khi đã làm chủ được hơi thở, ông có thể thay đổi tư thế để ngồi cho vững vàng. Khi mới tập ai cũng thấy đau chân, đau tay vì chưa quen ngồi, do đó tôi khuyên ông nên bắt đầu một cách từ từ, không vội vàng, hấp tấp.</p>
+            <p>Tôi nói:</p>
+            <p>- Angie được dạy phải ngồi thiền khoảng mười lăm phút trước khi bắt đầu các động tác hay tư thế Yoga.</p>
+            <p>Ông Kris bật cười:</p>
+            <p>- Một số nơi dạy Yoga thường thêm thắt vào một vài thứ rồi gọi là thiền hay khí công để tạo vẻ huyền bí mà thôi. Ông nên nhớ các tư thế lúc đầu chỉ giúp cho ông có thể thở nhẹ và sâu. Thật ra khi thân thể thoải mái, điều hòa thì hơi thở mới sâu và nhịp nhàng được. Nếu tiếp tục như thế, đến một lúc nào đó, hơi thở sẽ trở nên êm nhẹ và dần dần lắng sâu.</p>
+            <p>Ông Kris đột nhiên nghiêm giọng:</p>
+            <p>- Nhiều người mới tập được dạy phải hít thở thật sâu, dồn hơi xuống bụng như các ca sĩ luyện giọng. Việc này thật tai hại vì người ta chỉ chú trọng đến hơi thở mà quên rằng tĩnh tâm là để cho đầu óc thoải mái chứ không phải cố gắng qua cách hít thở làm cho phổi và tim hoạt động bất bình thường. Nhiều người luyện tập hít thở mà quên rằng đây là việc kiểm soát tư tưởng chứ đâu phải là một môn thể thao. Có người dạy phải dồn hơi vào các huyệt đạo, đưa nó đi theo hệ thống kinh lạc trong thân thể để đạt được một điều gì đó. Đây là lối luyện tập của một số phù thủy, rất nguy hiểm vì có thể gây rối loạn thần kinh. Nhiều người được dạy phải hướng đôi mắt lên cao và giữ mắt trong tư thế đó để khiến cho thị giác tê liệt như bị thôi miên và đi đến trạng thái xuất thần, phát sinh các hiện tượng kỳ lạ hay bị các vong linh nhập vào dìu dắt. Đây là điều phải tuyệt đối tránh vì tĩnh tâm là để cho đầu óc thoải mái, loại bỏ các tư tưởng không cần thiết chứ không phải để đạt đến một điều gì hết.</p>
+            <p>Phương pháp tĩnh tâm giúp cho thân thể và đầu óc thoải mái trước khi bắt đầu tập trung tư tưởng để đi xa hơn. Nếu quan tâm đến các tư thế, rồi thấy đau chân, mỏi tay thì làm sao làm chủ được tư tưởng? Việc luyện tập không được vội vàng, hấp tấp mà phải để cho mọi sự đến một cách tự nhiên. Nên nhớ, tĩnh tâm là sự phát triển trí thức, đạo đức và tâm linh để làm chủ tư tưởng và cảm xúc. Đó không phải là sự phát triển một khả năng thần thông để đạt đến một cái gì đó. Đừng lẫn lộn việc tĩnh tâm với việc tu luyện một phép thần thông nào đấy hay mong muốn đạt được thứ gì đó. Sự cố gắng lúc đầu chỉ để tập một thói quen tích cực nhằm đạt đến sự bình an, loại bỏ những tư tưởng lộn xộn trong đầu óc. Khi những tư tưởng lộn xộn đã được loại bỏ và tâm đã an, thì mọi việc sẽ khác.</p>
+            <p>Điều quan trọng nhất là phải duy trì thời gian tập luyện. Một khi đã chọn ra thời điểm cụ thể để tĩnh tâm thì cần phải tuân giữ vì ông cần có thói quen, nếu không sẽ khó đi xa được. Ông nên tập vào sáng sớm, khi mặt trời bắt đầu mọc vì đây là lúc những luồng từ điện trong thiên nhiên rất mạnh. Không nên tập sau bữa ăn hay trong đêm khuya vì có những ảnh hưởng bất lợi. Ông có thể bắt đầu tập trong khoảng mười lăm phút rồi tăng lên ba mươi phút, sau đó có thể tăng lên bốn mươi lăm phút hay nhiều hơn nữa. Đôi khi tập lâu, cơ thể căng thẳng, mệt mỏi thì ông có thể đứng dậy đi bộ thong thả khoảng mười lăm phút cho thân thể điều hòa trở lại.</p>
+            <p>Khi tập được một thời gian, khi thân thể hoàn toàn thoải mái, hơi thở được điều hòa, nhẹ nhàng thì ông hãy để cho tư tưởng tập trung vào một điều gì đó tốt đẹp để tránh tư tưởng chạy lăng xăng hay bị xáo trộn bởi công việc hàng ngày. Đây là một việc rất khó vì đầu óc của ông quen suy nghĩ đủ mọi thứ rồi.</p>
+            <p>Ông Kris kết luận:</p>
+            <p>- Ông nên nhớ phương pháp tĩnh tâm này đòi hỏi một sự nỗ lực chứ không phải là một cảm giác mơ màng, nửa mê nửa tỉnh. Ông có thể hình dung người thực tập phương pháp này giống như con hải âu bay trên biển vậy. Con hải âu dang rộng đôi cánh, lướt theo làn gió trên mặt nước. Bề ngoài trông như bất động nhưng thật ra nó phải cố gắng rất nhiều để đương đầu với những luồng gió mạnh, phải luôn luôn điều chỉnh đôi cánh theo sự thay đổi của luồng gió, do đó nó ý thức từng giây từng phút để không bị gió thổi bay xuống biển.</p>
+            <p style="text-align: center;">* * *</p>
+            <p>Tôi trở về New York, tiếp tục công việc hàng ngày nhưng dành ra nửa giờ mỗi buổi sáng thực tập tĩnh tâm theo phương pháp ông Kris đã dạy. Điều này làm Angie ngạc nhiên vì từ trước đến nay tôi chỉ thường đọc báo hay xem tin tức vào buổi sáng.</p>
+            <p>- Khi xưa anh thường cười nhạo việc em và Connie đi tập Yoga, mà sao bây giờ anh lại dành thời gian ngồi yên như đang tập thiền thế?</p>
+            <p>Tôi không muốn giải thích, nên bào chữa:</p>
+            <p>- Dạo gần đây đầu óc anh bị căng thẳng nên chỉ muốn ngồi yên tĩnh dưỡng ít lâu trước khi đi làm thôi.</p>
+            <p>Một hôm, tôi đang làm việc thì Angie bước vào với một tờ quảng cáo về một buổi diễn thuyết. Angie nói:</p>
+            <p>- Hôm trước em và Connie đi xem triển lãm về Ai Cập ở viện bảo tàng có thấy tờ quảng cáo này nên cầm về. Anh có muốn đi nghe với em không?</p>
+            <p>Tôi đọc lướt qua tờ quảng cáo, đó là buổi diễn thuyết của một giáo sư đại học nghiên cứu về các nền văn minh cổ xưa. Như có một cái gì đó thôi thúc, tôi gật đầu:</p>
+            <p>- Ừ, chúng ta cứ thử đi nghe xem người này nói gì.</p>
+            <p>Buổi diễn thuyết được tổ chức tại Đại học New York, diễn giả là một giáo sư tuy chưa nổi danh nhưng đã có nhiều công trình nghiên cứu nghiêm túc. Khán giả không đông lắm, phần lớn chỉ là sinh viên phải đi nghe để viết tường trình cho lớp học của họ. Tôi đi cùng với Angie và vợ chồng Andrew.</p>
+            <p>Diễn giả bắt đầu với công trình nghiên cứu về các nền văn minh của ông tại nhiều quốc gia trên thế giới. Ông nói:</p>
+            <p>- Trong các tài liệu cổ còn được lưu truyền ngày nay thì tài liệu của người Do Thái vẫn được coi là tương đối đầy đủ nhất. Các kinh sách Do Thái thường đề cập đến sự giao ước giữa con người và Thượng Đế thông qua các giới luật căn bản được ghi rõ trong bộ giáo luật Torah và trong kinh Cựu Ước. Tuy nhiên, bên cạnh những giới luật này lại có một quan niệm trừu tượng về sự lưu đày và việc trở về miền đất hứa. Đa số người Do Thái đều tin rằng đây là một sự kiện lịch sử. Khi xưa dân Do Thái bị bắt làm nô lệ tại Ai Cập nhưng sau đó được giải phóng. Tuy nhiên, khi rời khỏi Ai Cập, họ lại vi phạm sự giao ước giữa họ và Thượng Đế nên bị trừng phạt, phải lang thang khắp nơi, không quê hương, và không thể trở về miền đất hứa.</p>
+            <p>Gần đây, các nhà khảo cổ đã tìm được một tài liệu ở vùng Biển Chết giải thích rằng sự lưu đày chỉ là một ẩn dụ, ám chỉ việc mất ý thức về nguồn gốc thiêng liêng, một sự sa đọa về tâm linh của con người nói chung. Sự trở về miền đất hứa tượng trưng cho sự quay về để biết mình là ai, để biết đến nguồn gốc thiêng liêng, cao quý vốn sẵn có nơi mình. Sự giao ước với Thượng Đế chẳng qua chỉ là sự phát triển tiềm năng hiểu biết để sống thuận với những quy luật tự nhiên mà thôi. Điều này đã làm đảo lộn quan niệm vẫn có từ mấy ngàn năm nay và tạo ra một cuộc tranh luận sôi nổi trong giới học giả Do Thái.</p>
+            <p>Một số học giả không công nhận tài liệu này vì như thế là phủ nhận “miền đất hứa”, vốn là vùng đất của Thượng Đế đã ban cho dân Do Thái [9] . Chính vì quan niệm cho rằng họ là giống dân đã được Thượng Đế chọn lựa, đã được ban cho một vùng đất làm quê hương, mà người Do Thái, dù lang thang khắp nơi trên thế giới suốt mấy ngàn năm nay, vẫn luôn luôn hướng về “miền đất hứa” của họ. Việc đưa ra tài liệu khảo cổ với quan niệm mới mẻ này, dù được viết bởi giáo sĩ Do Thái thời cổ, là điều không thể chấp nhận được.</p>
+            <p>Một số học giả khác cho rằng tài liệu của giáo sĩ Do Thái, viết từ nhiều ngàn năm trước, giải thích ẩn nghĩa của huyền môn Kabbalah, là một khám phá quan trọng và người Do Thái không thể phủ nhận một văn kiện giá trị như thế được.</p>
+            <p>Lịch sử Do Thái ghi rõ Kabbalah là bộ sách huyền môn đã được nhà tiên tri Moses ghi chép bằng chữ tượng hình với rất nhiều ẩn nghĩa. Từ xưa, các nhà tiên tri, các đạo gia thường sử dụng một thứ ngôn ngữ bí mật, các ẩn dụ, các câu nói bóng bẩy để diễn tả một số việc sẽ xảy ra trong tương lai mà họ không thể nói trước.</p>
+            <p>Kinh Talmud đã nói rõ: “Chân lý không phải là điều để mang ra nói mà là điều người ta chỉ hiểu được qua công phu tu tập mà thôi”. Do đó, các đạo gia thời cổ chỉ truyền dạy cho học trò qua phương pháp khẩu truyền chứ không mấy ai viết ra. Nếu phải viết ra thì họ dùng ám tự, ẩn nghĩa và lựa chọn học trò rất kỹ sau nhiều cuộc khảo nghiệm để chắc rằng học trò có thể hiểu những huyền nghĩa này.</p>
+            <p>Moses Ben Maimon ( Maimonides ), nhà thần học nổi tiếng và uy tín nhất về giáo luật Torah của Do Thái giáo, đã viết: “Sự ý thức được chính mình là quy luật căn bản của mọi truyền thống tâm linh vì biết mình tức là biết được nguồn gốc thiêng liêng của mình”. Mục tiêu của mọi truyền thống tâm linh cổ xưa đều nhằm vào việc con người tự biết mình. Trong khi ngày nay, nó bị thay đổi để nhắm vào một đối tượng xa vời, một cái gì đó vượt khỏi tầm hiểu biết của con người. Tệ hơn nữa, càng ngày nó càng chú trọng vào các hiện tượng ngoại giới. Chính vì thế mà mọi giải pháp, mọi quan niệm, mọi lý luận của các truyền thống tâm linh ngày nay không thể đem lại hạnh phúc cho con người vì đã sai lầm ngay từ căn bản.</p>
+            <p>Các nghiên cứu khảo cổ học gần đây đã tìm được nhiều tài liệu cho thấy từ xa xưa, cổ nhân đã sở hữu những kiến thức uyên bác về rất nhiều lĩnh vực, từ thiên văn đến địa lý, từ toán học đến siêu hình học, từ hóa học đến y học và gọi nó là huyền học chứ không phân chia nó ra thành nhiều môn riêng biệt như ngày nay. Trong những căn phòng nằm sâu trong các thánh điện nguy nga, hay các động đá tự nhiên trong rừng núi hoang vu, các đạo gia thời cổ đã nghiên cứu, học hỏi và vận dụng các năng lực huyền bí vào những việc mà ngày nay, trong thời buổi cực thịnh của khoa học thực nghiệm, nó vẫn được coi là những điều bất khả thi hay phép lạ.</p>
+            <p>Thật là một sự sỉ nhục cho người xưa, khi những nhà khoa học non nớt của thế kỷ này dám chỉ trích các bậc tiền bối của họ là những thầy phù thủy ngu dốt. Nói như thế chẳng khác nào hàng ngàn năm nay, nhân loại chỉ toàn là những kẻ ngu dốt, dại khờ và mê tín dị đoan, cho đến đầu thế kỷ hai mươi này người ta mới trở nên khôn ngoan. Nếu nhìn vào lịch sử, có quốc gia nào trong quá khứ mà không có những vị anh hùng, những vĩ nhân có công xây dựng nền văn minh cho đất nước họ hay không? Có những giai đoạn nào trong quá khứ mà các đạo gia, học giả của họ lại không đưa văn hóa của họ lên đỉnh vàng son, oanh liệt? Tại sao ngày nay người ta lại cố tình quên đi lịch sử, quên đi công trình của tiền nhân, vùi dập những điều tốt đẹp của quá khứ dưới danh nghĩa tiến bộ khoa học? Điều đáng tiếc là ngày nay các nhà khoa học lại chia cắt kiến thức của cổ nhân ra thành những mảnh vụn rời rạc, do đó họ không thể có một cái nhìn bao quát mà chỉ biết về những mẩu rất nhỏ, song lại tự hào là mình thông minh.</p>
+            <p>Nếu xét kỹ quá trình lịch sử, người ta có thể thấy nhiều điểm tương đồng giữa các nền văn minh cổ xưa từ Đông qua Tây. Thí dụ như hai tài liệu rất cổ vẫn còn được lưu truyền ngày nay là bộ luật Manu và pho kinh Veda của người Ấn, trong đó người xưa ghi chép rất công phu các nghi thức tế lễ và cầu nguyện. Nếu xét kỹ, người ta sẽ thấy những nghi thức này không khác gì những nghi thức được tìm thấy trong thánh kinh Talmud của Do Thái giáo hay nghi thức của nền tôn giáo cổ được ghi lại trên các thạch trụ ở Babylon. Nếu nghiên cứu kỹ hơn nữa, người ta lại thấy nó cũng không khác các nghi thức tôn giáo của Ai Cập, Tây Tạng, hay Trung Hoa bao nhiêu. Tại sao lại có sự trùng hợp như thế? Tại sao những nền văn minh ở cách nhau rất xa trên phương diện địa lý và thời gian lại có những nghi thức tế lễ, cầu nguyện tương tự như thế? Phải chăng từ ngàn xưa đã có sự liên lạc, giao thiệp giữa những người của các quốc gia đó? Hoặc tất cả đều chịu ảnh hưởng bởi một nguồn gốc chung, bởi một nền văn minh mang tính toàn cầu vượt ra khỏi sự hiểu biết của con người ngày nay? Phải chăng các đạo gia ngày xưa đã sở hữu những kiến thức siêu việt qua công phu tu tập mà ngày nay không mấy ai còn biết đến? Nhờ sở đắc những kiến thức này, họ nghiệm ra rằng trên một bình diện tâm thức cao hơn bình diện của người thường, vốn không hề có sự khác biệt, vốn không hề có sự phân biệt, chân lý hay các quy luật tự nhiên của vũ trụ là bất biến, dù ở đâu hay trong thời gian nào.</p>
+            <p>Ngày nay, nhiều người cho rằng huyền học là truyền thống của người phương Đông. Nói như thế tức là không nắm vững các yếu tố lịch sử vì ngay tại phương Tây, huyền học cũng có một quá khứ khá huy hoàng. Những đạo gia Druid tại Anh Quốc đã thực hành huyền thuật trong những động đá thâm u của xứ họ. Họ đã để lại nhiều di tích như những cột trụ bằng đá tại Stonehenge mà ngày nay không mấy ai biết được mục đích của nó. Họ cũng chạm trổ các hình kỷ hà trên vách đá dọc theo bờ biển Ái Nhĩ Lan để nhắc nhở điều gì đó cho nhân loại mà ngày nay không ai hiểu được. Lịch sử Anh Quốc đã ghi nhận sự điều hành quốc gia sáng suốt của các nhà lãnh đạo thuộc chủng tộc Celtic qua các huyền thoại huy hoàng vẫn được dân chúng nhắc đến nhưng không mấy ai hiểu hết ẩn nghĩa của chúng. Những thuật sĩ Semathe của xứ Gaul (nước Pháp ngày nay) đã để lại rất nhiều tài liệu về toán học, vật lý học, vũ trụ học mà ngày nay các nhà nghiên cứu đã kinh ngạc trước những kiến thức về sự vận hành của các tinh tú và sự hình thành của trái đất. Trong những cánh rừng ở Trung Âu, các nhà khảo cổ đã tìm thấy nhiều tài liệu được chôn giấu ghi rõ các buổi hội họp, bàn thảo, và trao đổi kiến thức của những đạo gia này. Nhiều tài liệu nói về nguồn gốc, quá trình tiến hóa của nhân loại rất chính xác, mặc dù nó được viết từ hàng ngàn năm trước .</p>
+            <p>Tóm lại, từ ngàn xưa, đã có những nền văn minh cổ với sự hiểu biết thâm sâu nhưng vì lý do nào đó đã biến mất trên bề mặt địa cầu, chỉ còn sót lại một vài mảnh vụn mà ngày nay nhiều nhà khoa học đã cố tình bỏ qua, không để ý đến. Không ai biết con người có mặt trên quả đất này từ lúc nào và đã học hỏi, nghiên cứu những gì. Các tài liệu hiện đại vẫn cho rằng con người chỉ mới xuất hiện từ vài chục ngàn năm trước, nhưng lúc đó sống như con vật, chỉ biết hái lượm, rồi sau chuyển qua săn bắn và trồng trọt; mãi đến thời gian gần đây, con người mới biết đến khoa học và trở nên văn minh tiến bộ. Lý luận này có hợp lý không? Điều này cần phải xét lại .</p>
+            <p>Diễn giả ngừng lại như để mọi người suy nghĩ, rồi tiếp tục:</p>
+            <p>- Hiện nay đa số mọi người cho rằng nền văn minh của nhân loại bắt đầu từ vùng Lưỡng Hà rồi truyền đi khắp nơi. Nhiều sử gia cho rằng sự truyền bá nền văn minh này đi theo sự phát triển tôn giáo của người Ba Tư lúc đó là Hỏa giáo. Zoroaster, còn được biết đến là Zarathustra, đã sáng lập phái huyền học gọi là Magi, nhưng đa số các nhà khảo cổ không đồng ý với các sử gia. Họ cho rằng Zoroaster chỉ là một đạo gia đã có công cải cách, thay đổi nền huyền học cổ xưa thành một hệ thống khoa học mà thôi.</p>
+            <p>Một số nhà khảo cổ khác cho rằng nền văn minh nhân loại phát xuất từ Ai Cập rồi truyền vào Ba Tư, trộn lẫn với nền văn minh Lưỡng Hà lúc đó thành một nền văn minh mới, sau đó tiếp tục truyền qua các nước khác. Tóm lại, theo quan niệm này, có hai nền văn minh khác nhau, tích hợp lại theo các biến cố lịch sử và thời gian, rồi ảnh hưởng đến những nơi khác.</p>
+            <p>Câu hỏi cần đặt ra là phải chăng chỉ có hai nền văn minh đó thôi hay còn những nền văn minh khác nữa. Tại sao chỉ có hai mà không phải là nhiều nền văn minh khác nhau, xuất phát từ những nơi khác nhau, ảnh hưởng lẫn nhau? Các nhà khảo cổ đã biết gì về những nền văn minh tại Ấn Độ, Trung Hoa hay Tây Tạng? Những nền văn minh này có dính dáng gì với nền văn minh Lưỡng Hà hay Ai Cập? Đã đến lúc phải xét lại xem lý thuyết "chỉ có một nguồn gốc duy nhất, rồi tỏa lan đi khắp nơi" có còn chính xác nữa hay không.</p>
+            <p>Ông lý luận:</p>
+            <p>- Đa số các công trình nghiên cứu về các nền văn minh cổ hiện nay chỉ căn cứ vào các công trình xây cất, sản phẩm hay vật dụng đào bới được để xác định giá trị của nền văn minh. Đây là một thiếu sót lớn vì không phải nền văn minh nào cũng chú trọng đến việc xây cất lăng tẩm. Có những nền văn minh cổ xưa, tiến bộ trên địa hạt tinh thần, hiểu biết về các quy luật vũ trụ. Họ không quan tâm đến công trình xây cất, không để lại sản phẩm vật chất nhưng để lại cho đời sau một nền tảng minh triết sâu xa, một truyền thống tâm linh cao cả, qua sách vở, qua những câu chuyện truyền khẩu, qua các bài thơ với các lời lẽ sâu kín, ẩn mật. Theo tôi, nền văn minh Ấn Độ, Tây Tạng và Trung Hoa thuộc về loại này.</p>
+            <p>Ngày nay, nhiều nhà khoa học, nhà lịch sử, nhà khảo cổ, phần lớn là người phương Tây, chưa chịu chấp nhận rằng có nhiều nền văn minh khác nhau xuất hiện trong thời gian khác nhau và có những hiểu biết khác nhau. Họ phủ nhận những gì xuất phát từ châu Á vì quan niệm tự tôn của nền khoa học phương Tây. Do đó, nói là tất cả đều xuất phát từ một nơi chốn duy nhất như Lưỡng Hà là một khuynh hướng bảo thủ không hợp lý, có tính chất kỳ thị, và phủ nhận sự thật.</p>
+            <p>Ông kết luận:</p>
+            <p>- Qua quá trình nghiên cứu nhiều nền văn minh trên thế giới từ Đông sang Tây, tôi có thể kết luận rằng hiện nay không thể nói chỉ có một nền văn minh duy nhất xuất phát từ Trung Đông, dù đó là Lưỡng Hà hay Ai Cập rồi lan tỏa đi khắp nơi, mà bỏ quên những nền văn minh cổ khác như Ấn Độ, Tây Tạng hay Trung Hoa, hoặc biết đâu còn có những nền văn minh khác, cổ xưa hơn nữa, mà ngày nay chưa ai tìm ra hay biết đến.</p>
+            <p>Sau buổi diễn thuyết, tôi hỏi Andrew và Connie:</p>
+            <p>- Các bạn nghĩ sao về buổi diễn thuyết này?</p>
+            <p>Connie nói ngay:</p>
+            <p>- Tôi thấy diễn giả nói hay và bài diễn thuyết cũng rất giá trị. Là nhà nghiên cứu, chắc hẳn ông ấy còn biết nhiều điều hơn nữa, nhưng do giới hạn về thời gian nên ông ấy chỉ nói vắn tắt đó thôi.</p>
+            <p>Andrew tiếp lời:</p>
+            <p>- Đó là một đề tài phức tạp, khó có thể nói rõ từng chi tiết. Vả lại đây chỉ là buổi diễn thuyết dành cho sinh viên và khách tham quan bảo tàng mà thôi.</p>
+            <p>Chúng tôi vừa rời khỏi giảng đường thì gặp ngay giáo sư Morris, viện trưởng phân khoa khảo cổ của Đại học New York. Ông Morris tiến đến thăm hỏi chúng tôi vì biết tôi làm chủ một công ty lớn, hàng năm vẫn tài trợ cho trường đại học này.</p>
+            <p>Ông Morris vui vẻ nói:</p>
+            <p>- Thật bất ngờ và hân hạnh gặp ông. Tôi không ngờ ông lại quan tâm đến các nền văn minh cổ như thế này?</p>
+            <p>Tôi cũng xã giao nói:</p>
+            <p>- Thỉnh thoảng chúng tôi cũng hay đi nghe hòa nhạc và tham dự các buổi diễn thuyết giá trị của Đại học New York. Đề tài hôm nay rất hay và giá trị. Tôi hoàn toàn đồng ý với những nghiên cứu của diễn giả.</p>
+            <p>Giáo sư Morris ngạc nhiên:</p>
+            <p>- Thế ư? Đây là một đề tài vẫn gây nhiều tranh cãi sôi nổi trong giới nghiên cứu. Giáo sư Baader tuy còn trẻ nhưng đã có nhiều công trình nghiên cứu giá trị. Để tôi giới thiệu anh ta đến gặp ông.</p>
+            <p>Phần lớn những công trình nghiên cứu của các trường đại học Hoa Kỳ thường được tài trợ bởi các công ty tư nhân hay các hiệp hội. Tôi biết ý của giáo sư Morris muốn giới thiệu vị giáo sư trẻ này với tôi vì biết đâu công ty của tôi sẽ tài trợ cho công trình nghiên cứu của anh ta. Tôi mỉm cười, rút tấm danh thiếp đưa cho giáo sư Morris:</p>
+            <p>- Vâng, xin ông cho giáo sư Baader biết rằng tôi rất quan tâm đến công trình nghiên cứu này và nếu cần gì, giáo sư Baader có thể đến gặp tôi.</p>
+            <p>Điều bất ngờ là chỉ vài hôm sau, giáo sư Baader đã gọi điện hẹn gặp. Buổi gặp gỡ diễn ra tại văn phòng làm việc của tôi. Sau vài câu xã giao thông thường, tôi nói ngay:</p>
+            <p>- Nếu có thể, xin giáo sư cho tôi biết thêm về các nền văn minh cổ Tôi rất quan tâm đến đề tài này.</p>
+            <p>Giáo sư Baader thoải mái chia sẻ:</p>
+            <p>- Tôi đã bắt đầu nghiên cứu từ nhiều năm nay và đã đi đến tận nơi để xem xét những di tích cổ, từ đền đài Ai Cập cho đến chùa tháp Tây Tạng, từ các lâu đài ở châu Âu cho đến lăng mộ vua chúa ở châu Á. Tôi tiếp xúc với dân địa phương để nghe kể về các truyền thuyết dân gian. Tuy nhiều câu chuyện có tính chất hoang đường nhưng một vài trong số đó cũng rất giá trị cho việc nghiên cứu của tôi.</p>
+            <p>Tôi hỏi:</p>
+            <p>- Theo sách vở ghi chép về các nền văn minh thế giới thì hầu hết kiến thức đều xuất phát từ Ai Cập, chuyện này là thế nào?</p>
+            <p>Giáo sư Baader trả lời:</p>
+            <p>- Đó là một sai lầm rất lớn. Nền văn minh Ai Cập có giá trị của nó, nhưng Ai Cập không phải là cái nôi khai sinh ra nền văn minh thế giới. Từ ngàn xưa, người Ai Cập đã có một truyền thống tâm linh rất cao, gắn liền với tôn giáo. Lúc đó, Ai Cập có một nền tôn giáo cổ tôn thờ thần Thái Dương Ra. Hầu hết các học giả ngày nay đều cho rằng tôn giáo Ai Cập là một thứ tôn giáo đa thần - dựa trên các văn bản, tài liệu, di tích trong các đền thờ. Nhưng theo tôi thì nền tôn giáo đa thần chỉ xuất hiện sau khi thời đại vàng son của nền tôn giáo cổ đã suy tàn.</p>
+            <p>Tôi thắc mắc:</p>
+            <p>- Theo như ông nói thì khi xưa Ai Cập đã có hai nền tôn giáo khác nhau sao?</p>
+            <p>Giáo sư Baader giải thích:</p>
+            <p>- Đúng thế, theo tài liệu của sử gia Jean Champollion (1780 – 1832) thì các giáo sĩ thành Thebes muốn bành trướng thế lực của phe nhóm đã “đẻ ra” nhiều thần linh khác nhau để biến tôn giáo cao đẹp khi xưa thành một thứ giáo quyền tổ chức chặt chẽ với các hình thức thờ cúng, mê tín dị đoan, kiêm một số tà thuật, sử dụng bùa chú, phép thuật để mê hoặc nhân tâm.</p>
+            <p>Champollion dẫn chứng rằng từ thời xa xưa, tôn giáo Ai Cập vẫn tôn thờ một đấng duy nhất, gọi là đấng Thái Dương Ra vì cuốn cổ thư của thánh sư Thoth (người Hy Lạp gọi là Hermes) đã ghi nhận rất rõ về việc này. Thoth viết rằng chỉ có một đấng duy nhất đã ban rải ánh sáng cho muôn loài và tạo ra sự sống trên trái đất. Cuốn cổ thư của Thoth ghi rõ: “Từ nơi Ngài mới có ánh sáng, và ánh sáng tỏa chiếu khắp nơi phá tan màn đêm u tối. Từ đó sự sống xuất hiện, tạo ra vạn vật. Không có Ngài, muôn loài không thể hiện hữu. Vì không ai biết tên của Ngài nên họ đã tạm lấy mặt trời làm biểu tượng và gọi Ngài là đấng Thái Dương Ra”.</p>
+            <p>Thoth đề cao việc tôn thờ mặt trời làm biểu tượng của đấng cao cả vì Ngài vốn vô hình, vô tướng và vô danh. Thoth biết không thể định danh một quan niệm trừu tượng như thế cho dân chúng nên đã đưa ra tên gọi đấng Thái Dương Ra, hay là đấng sáng tạo ra mọi vật. Từ đó, tất cả các đền thờ, kim tự tháp, tượng nhân sư đều được xây cất quay về hướng Đông, hướng mặt trời mọc, nơi đấng sáng tạo xuất hiện mỗi ngày.</p>
+            <p>Trên thạch trụ của đền thờ Karnak có ghi rõ lời dạy của Thoth: “Phương Đông là nơi vầng Thái Dương xuất hiện, cũng là nơi để định hướng cho sự sống, vốn luôn luôn tái diễn không ngừng như ngày và đêm. Chỉ có quay về phương Đông thì con người mới thật sự biết mình. Khi biết mình thì sẽ biết tất cả, và tìm ra chân lý để biết sống đúng với ý nghĩa thật sự của sự sống”.</p>
+            <p>Tôi hỏi tiếp:</p>
+            <p>- Theo nghiên cứu của ông thì tại sao một nền văn minh đẹp như thế lại suy tàn?</p>
+            <p>Baader trả lời điềm đạm:</p>
+            <p>- Có nhiều nguyên nhân dẫn đến sự suy tàn của nền văn minh Ai Cập. Nguyên nhân thứ nhất là các giáo sĩ đã không chịu tu tập theo các nguyên tắc của nền tôn giáo cổ. Họ không làm chủ được bản thân, không biết khép mình vào kỷ luật mà lười biếng và ỷ lại, chỉ lo hưởng thụ, để rồi nền tôn giáo cao đẹp mất đi các tinh hoa. Ông nên biết rằng hầu hết các truyền thống tâm linh đều do các giáo sĩ tu tập và gìn giữ. Nếu những người này không chịu tu học, không chịu tuân theo kỷ luật, phép tắc, không biết giữ gìn thì nó phải suy tàn. Lý do chính dẫn đến sự suy tàn của nền tôn giáo cổ là do sự vô trách nhiệm của giới giáo sĩ. Vì lười biếng, không giữ gìn giới luật nên đa số không có kiến thức tâm linh, không có sự hiểu biết đúng đắn. Để bù đắp cho sự thiếu sót này, một số bắt đầu sử dụng tà thuật, rồi phong trào dùng bùa chú, phép thuật để mê hoặc nhân tâm lan tràn khắp các đền thờ làm ô uế nền tôn giáo cổ. Khi dân chúng không còn tin tưởng vào những giáo sĩ lãnh đạo, khi tà thuật làm cho văn hóa suy đồi, xã hội hỗn loạn thì các Pharaoh bắt đầu nắm quyền, giới hạn các giáo sĩ vào việc thờ cúng tế lễ chứ không được can dự vào những việc khác nữa. Đó là nguyên nhân sâu xa dẫn đến sự tranh giành quyền lực giữa các Pharaoh và giới giáo sĩ.</p>
+            <p>Nguyên nhân thứ hai là việc sử dụng ngôn ngữ. Từ ngàn xưa, người Ai Cập đã có một loại chữ viết bình dân. Phần lớn các văn kiện, tài liệu, giao dịch đều sử dụng loại chữ này. Tuy nhiên, các giáo sĩ lại sử dụng một loại chữ đặc biệt riêng gọi là chữ tượng hình trong tài liệu tôn giáo vì có những chi tiết ẩn mật, sâu kín, không thể nói ra bằng lời được. Đây là loại chữ đặc biệt dành cho những đạo đồ nghiên cứu thâm sâu trao đổi với nhau. Ngày nay, người ta còn tìm được những ám tự này trong cuốn Y Thư và Tử Thư. Vì đa số các giáo sĩ chuyển hướng theo tà giáo, không chịu tu học, nghiên cứu nữa nên các sách vở của nền tôn giáo cổ, viết bằng ám tự, dần dần thất truyền, theo thời gian không còn ai có thể đọc được nữa.</p>
+            <p>Nguyên nhân thứ ba là khi các Pharaoh bị ảnh hưởng bởi tà giáo, sử dụng bùa chú, phép thuật để liên lạc với các sinh vật cõi âm. Họ được dạy rằng nếu biết ướp xác và thực hành một số nghi thức cúng lễ, họ sẽ sống mãi và trở nên bất tử ở cõi giới bên kia. Do đó, họ cho xây cất các lăng tẩm vĩ đại để lưu giữ xác thân mà không biết rằng xác thân của họ trở thành một nơi cho ảnh hưởng cõi âm phát tác. Tin tưởng rằng con người có thể trở nên bất tử nên việc xây cất lăng tẩm đã trở thành tham vọng chính yếu của các vua chúa Ai Cập. Theo thời gian, việc xây cất trở thành một kỹ nghệ chính với hàng chục ngàn thợ thuyền, nô lệ chuyên xây cất mồ mả, làm suy kiệt tiềm lực quốc gia. Để có tiền xây cất mồ mả hoành tráng, các Pharaoh xâm lăng các nước quanh vùng, chiếm đoạt tài nguyên, vàng bạc và nô lệ. Từ đó, Pharaoh nào cũng gây chiến, đánh dẹp các nước quanh đó, gây thù chuốc oán khắp nơi.</p>
+            <p>Trải qua nhiều triều đại vua chúa, trải qua bao thăng trầm biến đổi, nền văn minh Ai Cập dần dần suy tàn. Khi nhân lực suy kiệt vì các công trình xây cất, khi vua chúa chỉ mong được bất tử ở thế giới bên kia, khi quan lại tham nhũng đục khoét tài sản quốc gia, khi mọi người chỉ sống ích kỷ thì xã hội rối loạn, dân chúng lầm than, khổ cực, và Ai Cập trở thành miếng mồi ngon cho các nước quanh đó. Trải qua mấy ngàn năm, người dân Ai Cập phải sống dưới ách đô hộ của người Nubia, Assyria, Ba Tư, Hy Lạp, La Mã, Ả Rập, Ottoman, và gần đây hơn là người Anh, người Pháp. Hậu quả của việc này là văn hóa Ai Cập hoàn toàn biến mất, ngay cả chữ viết bình dân cũng bị thất truyền huống chi là chữ tượng hình. Do đó, không ai còn biết đến văn hóa, lịch sử hay các dòng chữ ghi khắc trong cổ mộ, hoặc trên thạch trụ trong các đền thờ nữa. Giờ đây, phần lớn người dân Ai Cập không mấy ai biết được nguồn gốc cao đẹp, nền văn hóa huy hoàng hay lịch sử oai hùng của mình nữa, mà họ chỉ đồng hóa mình với nền văn hóa của xứ Ả Rập.</p>
+            <p>Tôi im lặng nghe, nhưng trong lòng trào dâng một nỗi buồn khôn tả. Những lời giáo sư Baader nói rất trùng hợp với trải nghiệm về tiền kiếp tại Ai Cập của tôi.</p>
+            <p>Giáo sư Baader nói tiếp:</p>
+            <p>- Vào năm 1801, Hoàng đế Napoleon đem binh chinh phục Ai Cập. Một nhóm binh sĩ xây cất pháo đài dọc bờ sông Nile đã tìm được một bia đá có khắc ba loại chữ: chữ tượng hình (ám tự), chữ bình dân và chữ Hy Lạp. Đó là sắc lệnh từ các tu sĩ Memphis đề cao công đức của Pharaoh Ptolemy đời thứ năm. Vì nó được khắc bằng ba loại chữ khác nhau cho nên các học giả người Âu liền đối chiếu theo đó mà truy dần ra bộ chữ tượng hình Ai Cập. Jean Champollion, học giả kiêm sử gia nổi tiếng của Pháp, đã được Hoàng đế Napoleon chỉ thị phải nghiên cứu bộ chữ này để tìm hiểu những gì được ghi khắc trên các thạch trụ. Nhờ thế ông đã soạn lại toàn bộ chữ tượng hình đã bị thất truyền từ mấy ngàn năm nay. Công trình này đã vén mở tấm màn huyền bí vẫn bao trùm lên nền văn minh Ai Cập từ hàng ngàn năm qua.</p>
+            <p>Champollion tiếp tục công việc phiên dịch các tài liệu cổ của Ai Cập, nhất là bộ sách của thánh sư Thoth còn được ghi trên các bia đá và thạch trụ. Là người thận trọng, ông đã lưu ý những học giả đời sau rằng chữ tượng hình là một ngành khoa học thiêng liêng, người ta chỉ có thể hiểu được một phần nào ý nghĩa thông thường, dựa theo sự suy đoán về bộ chữ cái mà thôi. Muốn quán triệt sâu xa những diệu nghĩa huyền bí, người ta phải có kiến thức về tâm linh, một thứ kiến thức siêu việt cao hơn bình diện tri thức thông thường. Do đó, ông kết luận rằng người ta chỉ nên coi những bản dịch ám tự như là một sự suy đoán, chữ đâu nghĩa đó chứ không thể xác định ý nghĩa thật sự của nó được.</p>
+            <p>Tôi tiếp tục hỏi:</p>
+            <p>- Tôi vô cùng thán phục công trình nghiên cứu của ông về Ai Cập với những chứng tích lịch sử. Ngoài ra, ông còn biết gì thêm về nền văn minh này nữa không?</p>
+            <p>Giáo sư Baader nhiệt tình chia sẻ thêm:</p>
+            <p>- Từ ngàn xưa, Ai Cập vẫn được coi là trung tâm văn hóa lớn nhất ở miền cận Đông và là nơi tụ họp của rất nhiều thánh nhân, hiền triết. Sử gia Ennemoser đã ghi nhận các hiền triết Hy Lạp như Thales, Herodotus, Orphee, Parmenides, Enedoples và Pythagoras đều từng qua Ai Cập học hỏi. Họ học hỏi với ai và ở đâu thì không thấy nói. Có thể họ vào đền thờ để thụ giáo với các giáo sĩ như sử gia Herodotus đã viết trong cuốn sách của ông. Nhưng cũng có thể họ tìm đến các ốc đảo hoang vu để học hỏi với các bậc đạo gia uyên bác – như Pythagoras đã nói với các học trò về thời gian ông sống ở sa mạc Ai Cập. Những đạo gia này là ai? Không ai biết và không sách vở nào ghi chép rõ, nhưng nếu là bậc thầy của các hiền triết như Pythagoras, Thales hay Orphee thì chắc hẳn họ phải là bậc đại tôn sư, đại hiền triết. Câu hỏi là tại sao lại không thấy tài liệu nào ghi nhận. Phải chăng những bậc vĩ nhân này khiêm tốn, không màng danh lợi trần thế nên đã không chịu tiết lộ danh tánh của mình?</p>
+            <p>Tôi thắc mắc:</p>
+            <p>- Tại sao những người ẩn tu ngoài sa mạc ấy không để lại dấu tích gì?</p>
+            <p>Giáo sư Baader trả lời:</p>
+            <p>- Theo nghiên cứu của tôi thì từ xưa đã có những bất đồng ý kiến giữa các giáo sĩ về phương pháp tu luyện. Truyền thống tâm linh nào cũng chia làm hai phần: công truyền và bí truyền . Đối với các đạo gia hay giáo sĩ tu tập theo phương pháp bí truyền thì tự biết mình là điều chính yếu. Một khi đã ý thức về mình, về nguồn gốc thiêng liêng của mình, thì mọi sự sẽ tự nhiên được giải đáp. Do đó, trước khi tìm cách giải thích các hiện tượng ngoại giới, các quy luật vũ trụ, trước khi thu nhận học trò hay giảng dạy điều gì, họ quay vào bên trong để tìm hiểu chính mình qua các phương pháp tu tập nội quán. Do đó, đa số tìm đến những nơi thâm sâu, hoang vắng để tu tập chứ không mấy ai sống trong các đền thờ ồn ào, phức tạp .</p>
+            <p>Với các giáo sĩ tu tập theo giáo lý công truyền thì các kiến thức về quy luật tự nhiên là công cụ tốt để sử dụng cho mục đích cá nhân nào đó. Thay vì quay vào bên trong, họ lại hướng ra bên ngoài để nghiên cứu và biến các kiến thức này thành một thứ khoa học, sử dụng các năng lực trong tự nhiên, từ đó họ có các quyền năng thần thông. Tuy nhiên, vì thiếu hiểu biết về bản thân, nên họ để cho các động lực như tham lam, sân hận, kiêu căng lung lạc, dần dần đi vào con đường sử dụng tà thuật. Nhờ có kiến thức về các động lực tiềm ẩn trong tự nhiên, có thể kêu gọi và sai khiến những sinh vật cõi âm, họ tự coi mình là đấng cao cả, đại diện cho thần linh nào đó. Thay vì hướng dẫn mọi người thì họ chỉ giảng dạy những gì có lợi cho họ hay phe phái của họ. Thay vì giúp con người học hỏi để tiến bộ thì họ lại vận dụng kiến thức vào những điều mang tính ích kỷ, tham lam, đánh lạc hướng mọi người với những lời hứa hẹn hòng bảo vệ quyền lợi của cá nhân. Thay vì giúp con người thoát ra khỏi các ước lệ, ràng buộc của các thành kiến hẹp hòi qua việc tự biết mình, thì họ lại biến các quy luật tự nhiên thành một thứ luật pháp khắt khe đầy những áp chế, đe dọa. Dưới sự hướng dẫn của họ, đấng Thái Dương Ra không còn là đấng sáng tạo ban ánh sáng để xua tan màn đêm u tối nữa mà đã hóa thành một hung thần, dễ nổi giận, sẵn sàng trừng phạt những ai làm trái ý Ngài. Đó là lý do mà nền văn minh tôn giáo cổ dần dần bị thất truyền .</p>
+            <p>Các giáo sĩ chân chính không chịu được hình thức áp chế tư tưởng bèn rút vào sa mạc hoang vu để ẩn tu, không màng đến thế sự. Trong khi đó, giáo sĩ tà giáo, những thầy phù thủy, những kẻ sử dụng bùa chú trở nên mỗi ngày một nhiều. Họ cấu kết với các Pharaoh tham lam, hung ác để sinh ra các hình thức tín ngưỡng mới tôn thờ vô số thần linh mà họ đã tạo ra, do đó tôn giáo Ai Cập trở thành một thứ tôn giáo đa thần.</p>
+            <p>Tôi hỏi thêm:</p>
+            <p>- Ông đã dựa vào đâu mà kết luận như thế?</p>
+            <p>Giáo sư Baader trả lời, giọng điềm tĩnh:</p>
+            <p>- Tôi dựa vào các tài liệu tìm được trong mộ của Pharaoh Ramses II, trong đó có sắc lệnh ghi rằng ông vua này đã ra lệnh thiêu hủy tất cả các bộ sách viết về các quy luật tự nhiên của đạo gia Denarath và tất cả những gì đề cập đến nền tôn giáo thời cổ. Sau khi Moses giải phóng dân Do Thái, Pharaoh Ramses đã cho đốt tất cả các sách vở huyền môn và giết những giáo sĩ tu học theo nền tôn giáo cổ. Đây là bằng chứng rõ rệt cho thấy sự tranh chấp giữa hai quan niệm bí truyền và công truyền.</p>
+            <p>Giáo sư Baader dừng lại một lúc, rồi nói tiếp:</p>
+            <p>- Theo nghiên cứu của tôi về các tài liệu cổ, sở dĩ Do Thái giáo có được một số tinh hoa là nhờ công trình của Thái hậu Batria, mẹ nuôi của nhà tiên tri Moses. Thái hậu Batria là đạo đồ huyền môn đã được truyền dạy các tinh hoa của nền tôn giáo cổ. Chính nhờ sự giáo dục của bà mà dân Do Thái mới có được một nhà tiên tri, một giáo chủ xuất sắc như Moses. Thánh Kinh ghi rõ: “Khi còn trẻ, Moses được huấn luyện theo truyền thống minh triết thâm sâu của Ai Cập”. Câu này ngụ ý rằng tinh hoa của nền tôn giáo thời cổ đã được trao cho Moses. Một đoạn trong Thánh Kinh đã ghi: “Khi thụ giáo nền minh triết này, Moses phủ kín mặt bằng một tấm vải che”. Một số nhà khảo cổ và giáo sĩ ngày nay cho rằng ông đã che mặt khi học hỏi các giáo lý này. Nhưng câu này không có ý nghĩa gì hết vì trong Thánh Kinh đâu nói gì đến việc đi học phải che mặt đâu. Theo tôi thì câu này ngụ ý rằng một tấm màn bí mật đã phủ lên những điều Moses được chỉ dạy vì chỉ những tinh hoa mật truyền mới cần phải che giấu. Điều này có nghĩa là Moses được học những giáo lý mật truyền.</p>
+            <p>Lịch sử Do Thái ghi nhận rằng Moses đã thụ huấn huyền môn tại Heliopolis, một thành phố cách thủ đô Cairo ngày nay khoảng vài chục dặm về phía Bắc. Đó là một đô thị xây quanh đền thờ Thái Dương rất lớn, chính giữa thành phố này có một thạch trụ rất cao ghi khắc ám tự mà ngày nay người ta vẫn chưa hiểu được ý nghĩa. Trong kinh sách của Do Thái giáo, Moses thường đề cập đến thạch trụ này như là một nơi quan trọng mà ông thường đi vòng quanh để suy ngẫm về ý nghĩa của nó. Các bậc hiền triết Hy Lạp sau này như Plato, Thales và Herodotus cũng nhắc đến thạch trụ này trong tài liệu của họ. Phải chăng thạch trụ có một ý nghĩa đặc biệt nào đó mà các bậc hiền triết đều nhắc đến? Người xưa dựng thạch trụ giữa phố để làm gì? Đây là một bí mật chưa ai có thể giải thích. Ngoài cây thạch trụ khổng lồ này, còn có bảy thạch trụ nhỏ hơn dựng quanh đó.</p>
+            <p>Lịch sử ghi nhận rằng sau khi chinh phục Ai Cập, đích thân Hoàng đế Napoleon đã đến tận nơi để xem thạch trụ này. Ông thường đứng trước những cây thạch trụ rất lâu như để suy nghĩ về một điều gì đó. Sau cùng, ông hạ lệnh tháo gỡ một thạch trụ nhỏ mang về dựng giữa thủ đô Paris. Nhiều người cho rằng Napoleon coi đó như một chiến lợi phẩm của cuộc chinh phục Ai Cập. Song, tôi không nghĩ như thế mà đoán rằng có lẽ Hoàng đế Napoleon đã biết được một phần nào bí mật của những cây thạch trụ nên mới mang nó về đặt tại Paris. Mặc dù nó đứng giữa thủ đô Paris từ bấy lâu nay nhưng các nhà khảo cổ, các nhà ngôn ngữ học cũng chưa biết những chữ trên cây thạch trụ này có ý nghĩa gì.</p>
+            <p>Khi chiếm Ai Cập, người Anh cũng tháo gỡ một cây thạch trụ mang về thủ đô Luân Đôn dựng cạnh bờ sông Thames. Cả hai thạch trụ này đều có khắc những ám tự nhưng cho đến nay không ai hiểu nó ám chỉ điều gì. Hiện nay, các nhà khảo cổ vẫn còn bàn cãi về nguồn gốc và mục đích tồn tại của những thạch trụ này, nhưng chưa thể đi đến một kết luận nào cả. Cũng như cho đến nay chưa ai biết các kim tự tháp được xây với mục đích gì.</p>
+            <p>Tôi hỏi thêm:</p>
+            <p>- Vậy theo ông thì những dòng chữ này có ý nghĩa gì?</p>
+            <p>Giáo sư Baader mỉm cười, đáp:</p>
+            <p>- Theo ý kiến của tôi, những ám tự này là chìa khóa huyền môn mà chỉ những bậc đạo đồ tu tập cao siêu, đã mở được đạo nhãn, mới có thể hiểu được. Nếu cứ dịch sát nghĩa từng câu, từng chữ rồi phỏng đoán sai lạc, trở thành những câu nói ngây ngô thì thật vô ích. Những ý nghĩa tượng trưng, bóng bẩy, những lời tiên tri không phải là điều giản đơn mà một người bình thường có thể hiểu được. Do đó, cần phải có thêm những công trình nghiên cứu đi xa và đi sâu hơn nữa.</p>
+            <p>Tôi gật đầu đồng ý vì trong thâm tâm tôi cũng biết rằng còn có những nền văn minh cổ xưa hơn nữa, nhưng đây là những điều không thể nói ra.</p>
+            <p>Tôi hỏi tiếp:</p>
+            <p>- Vậy ông định tiếp tục nghiên cứu như thế nào?</p>
+            <p>Giáo sư Baader chia sẻ:</p>
+            <p>- Mặc dù một số kiến thức về khoa học ngày nay đều ít nhiều phát xuất từ người Do Thái thời xưa, nhưng mấy ai đặt câu hỏi rằng người Do Thái đã học được những điều ấy từ đâu? Nếu người Do Thái học từ Ai Cập thì người Ai Cập đã học những điều này ở đâu? Cho đến nay hầu hết các tài liệu nghiên cứu về các nền văn minh cổ đều dừng lại tại Ai Cập hay Lưỡng Hà vì đó là những nền văn minh được xem là cổ xưa nhất. Tuy nhiên, nếu loại bỏ các thành kiến hẹp hòi thì gần đây chúng tôi đã tìm được nhiều tài liệu cổ xưa hơn tại Ấn Độ, Tây Tạng và Trung Hoa. Do đó, tôi nghĩ rằng đã đến lúc những nhà nghiên cứu, những nhà khảo cổ phải tìm đến những nền văn minh này để học hỏi thêm.</p>
+            <p>- Thế ông cho rằng nền văn minh Ấn Độ, Trung Hoa còn xưa hơn cả Ai Cập sao?</p>
+            <p>- Nếu chỉ căn cứ vào những di tích đào bới được tại nơi đó thì nền văn minh phương Đông như Ấn Độ và Trung Hoa chỉ bắt đầu khoảng bốn ngàn năm trước Công nguyên với những giai thoại mơ hồ mà ngày nay chúng ta gọi là huyền thoại. Do đó, các nhà khảo cổ xếp nền văn minh Trung Hoa thật sự bắt đầu vào khoảng ba ngàn năm trước Công nguyên, nghĩa là sau nền văn minh Ai Cập và Lưỡng Hà. Tuy nhiên, vì thiếu các công trình nghiên cứu nghiêm túc, biết đâu vùng đất chung quanh Ấn Độ, Trung Hoa hay Tây Tạng còn ẩn giấu những di tích văn minh nào đó mà chưa mấy ai biết đến.</p>
+            <p>Vào năm 1924, các nhà khảo cổ đã tìm được một thành phố cổ ở phía Đông Bắc xứ Ấn Độ ( Mohenjo Daro ) với hàng trăm ngôi nhà được xây bằng đất rất chắc chắn. Một số nhà còn được xây hai tầng. Mỗi nhà đều có phòng ngủ, phòng bếp, nhà tắm và nhà vệ sinh riêng với hệ thống dẫn nước từ sông vào nhà và các ống cống thoát nước đi nơi khác. Những căn nhà này đều được thiết trí theo đồ án hẳn hoi, cứ vài chục nhà lại có một quảng trường, mà các nhà khảo cổ cho rằng đó là nơi họp chợ hoặc là nơi hội họp công cộng. Các phương pháp định niên đại xác nhận rằng nền văn minh này đã xuất hiện khoảng từ mười ngàn cho đến mười lăm ngàn năm trước Công nguyên, nghĩa là tồn tại trước cả nền văn minh Ai Cập và Lưỡng Hà nữa. Không ai biết gì về nền văn minh này cũng như những người sống tại đó, và nghiên cứu này vẫn đang tiếp diễn. Nếu ta nhìn vào con số thời gian thì lúc này hầu như tất cả mọi người tại châu Âu vẫn còn sống trong thời kỳ đồ đá, chưa biết xây cất nhà cửa, chỉ biết hái lượm hay săn bắn mà thôi. Chúng ta phải kết luận thế nào đây? Phải chăng từ ngàn xưa đã có những nền văn minh tồn tại ở nhiều nơi trên thế giới mà vì lý do nào đó đã biến mất một cách bí ẩn?</p>
+            <p>Giáo sư Baader khôi hài nói:</p>
+            <p>- Nếu vì lý do gì đó mà hầu hết con người ở thời đại văn minh này biến mất trên bề mặt địa cầu, vài trăm năm nữa người ta đào bới được các khí cụ thô sơ của các bộ lạc bán khai tại châu Phi thì họ sẽ nghĩ thế nào? Phải chăng sẽ có người kết luận rằng con người thuộc thế kỷ hai mươi này chỉ biết sống man rợ, ăn lông ở lỗ mà thôi?</p>
+            <p>Trước những bằng chứng mới mẻ vừa được khám phá, chúng ta cần đặt câu hỏi rằng phải chăng từ ngàn xưa, nhiều nơi trên bề mặt địa cầu, nhất là ở phương Đông, đã có những nền văn minh phát triển rất cao so với phương Tây. Phải chăng khi người phương Tây còn sống man rợ trong núi non, rừng thẳm thì người phương Đông đã biết sống hợp quần, xây cất được những đô thị, phát triển về nông nghiệp, thủ công mỹ nghệ và đặc biệt có một đời sống tinh thần rất cao? Phải chăng khi người phương Tây còn bận rộn với việc tìm kế sinh nhai thì người phương Đông đã biết suy nghĩ về những điều thâm sâu, rộng lớn hơn và đã có những lời giải đáp cho thắc mắc của họ?</p>
+            <p>Thí dụ như Ấn Độ là một quốc gia đặc biệt với những truyền thống tôn giáo lạ lùng, phức tạp, khó diễn tả. Gần đây, các nhà khảo cổ đã tìm được nhiều tài liệu cổ viết từ bảy ngàn năm trước Công nguyên mà những nhà cổ ngữ học thông thái nhất vẫn chưa truy cứu ra lai lịch của nó. Chưa ai hiểu những chữ loằng ngoằng kỳ lạ này muốn nói lên điều gì. Nó còn cổ xưa hơn chữ Phạn nữa, do đó nó phải xuất phát từ một nền văn minh xa xưa nào đó mà chưa ai biết. Nếu các đạo sĩ Ai Cập hay Do Thái đã cẩn thận gìn giữ các giáo lý bí truyền của họ thì người Ấn còn gìn giữ cẩn mật hơn nữa. Thay vì truyền bá cho một thiểu số đạo đồ chọn lọc như tại Ai Cập hay Do Thái, thì khoa huyền môn Ấn Độ chỉ được truyền bá trong trường hợp đặc biệt, vì ích lợi chung.</p>
+            <p>Từ ngàn xưa, người Ấn Độ đã sở hữu một kho tàng kiến thức khoa học bao quát rất nhiều lĩnh vực, từ thiên văn đến địa lý, từ toán học đến siêu hình học. Yoga mà người ta biết đến hiện nay chỉ là một chương nhỏ nằm trong bộ sách rất dày ghi chép những kiến thức của người xưa mà nay đã thất truyền .</p>
+            <p>Các tài liệu cổ ghi nhận rằng Ấn Độ đã từng có một thời đại hoàng kim, một thời đại mà con người biết sống thuận theo các quy luật tự nhiên. Sau đó, xứ này đi vào giai đoạn suy vong do không biết kiềm chế các dục vọng, nhất là tình dục nam nữ và đi đến sự loạn luân. Để giải quyết tình trạng rối loạn xã hội này, các bậc đạo trưởng đã họp và quyết định cho giảng dạy một phần nhỏ trong quyển sách ghi nhận kiến thức thời cổ. Đó là chương Yuj mà ngày nay gọi là Yoga. Đây chỉ là phần chỉ dạy phương pháp tu luyện thể xác và tinh thần để phối hợp thân với tâm, phát triển khả năng trí tuệ của con người. Nếu điều này là thật thì bộ sách kia, cái kho tàng văn hóa thiêng liêng của Ấn Độ thời xưa, phải là sản phẩm của một nền văn hóa cao siêu vô cùng. Dĩ nhiên hiện nay không còn ai thấu suốt điều gì về nền văn minh đó nữa.</p>
+            <p>Giáo sư Baader giải thích:</p>
+            <p>- Ông cũng biết dân tộc nào cũng đều có những huyền thoại về nguồn gốc của họ, mô tả địa thế, núi non, sông ngòi và tổ tiên của họ đã xây dựng nền văn hóa của họ ra sao. Nhiều người cho rằng đó chỉ là truyền thuyết được người sau phóng đại lên nên không có giá trị về mặt sử liệu, nhưng biết đâu nó cũng ẩn giấu điều gì đó mà chúng ta chưa biết đến. Theo tôi thì các huyền thoại không chỉ là sự tưởng tượng đâu, mặc dù chi tiết không chính xác, nhưng nó luôn luôn chứa đựng những ẩn nghĩa mà người đời sau phải xem xét để hiểu rõ công trình của tiền nhân. Một quốc gia không thể đứng vững lâu dài trong lịch sử nếu không có những vị anh hùng chiến đấu để bảo vệ đất nước của họ. Một quốc gia không thể tồn tại nếu không có một nền văn hóa xuất sắc riêng biệt, khác với văn hóa của các quốc gia quanh đó. Nếu không, họ sẽ bị đồng hóa. Nếu chỉ dựa trên lý luận khoa học rồi bác bỏ những huyền thoại thì thật đáng tiếc .</p>
+            <p>Tôi thắc mắc:</p>
+            <p>- Tại sao ông lại chú trọng đến những huyền thoại như thế?</p>
+            <p>Giáo sư Baader tiếp tục chia sẻ:</p>
+            <p>- Như ông cũng biết, thiên anh hùng ca Iliad của Homer là một huyền thoại nói về trận chiến giữa lãnh chúa Agamemnon và thành Troy để cướp lại một tuyệt sắc giai nhân tên là Helen. Cuộc chiến thành Troy đề cao những vị anh hùng như Hector, Achilles, Ulysses… cũng như sự can thiệp của các thần linh Hy Lạp vào đời sống con người. Từ bao năm nay, mọi người đều coi đó là sự tưởng tượng phong phú của thi sĩ Homer. Ngày nay, người ta đã tìm được di tích thành Troy và rất nhiều tài liệu liên quan đến trận chiến này. Do đó, mọi người công nhận rằng “huyền thoại” này là một sự kiện lịch sử, với chi tiết và nhân vật có thật, mà Homer chỉ thêm thắt vài chi tiết vào bản trường ca bất hủ này thôi.</p>
+            <p>Như ông biết, từ xưa, Hy Lạp đã có một nền văn minh phát triển rất cao. Các triết gia, sử gia và học giả xứ này đã truyền dạy các môn khoa học, triết học, toán học và chiêm tinh học mà ảnh hưởng của nó vẫn còn tồn tại cho đến ngày nay. Chính nền văn minh Hy Lạp đã đặt nền móng cho nền văn minh châu Âu hiện tại. Lịch sử Hy Lạp đầy những huyền thoại và các bài thơ đề cao các anh hùng lập quốc, các chiến sĩ can trường sẵn sàng hy sinh để bảo vệ quê hương của họ. Không một nền văn hóa nào lại có nhiều anh hùng đến thế. Một nhà sử học đã lập danh sách những anh hùng Hy Lạp thời cổ, dù đó là nhân vật có thật hay huyền thoại, và đưa ra con số hơn năm ngàn người. Tại sao lại nhiều đến thế?</p>
+            <p>Nếu xem xét bối cảnh lịch sử lúc đó, ông có thể thấy Ba Tư là một cường quốc đang bành trướng rất mạnh, họ xâm lăng và chiếm gần hết các quốc gia quanh vùng, rồi đồng hóa các giống dân khác như Metani, Hittite, Assyria, Ai Cập, và đe dọa cả Hy Lạp. Ba Tư đã kiểm soát các vùng biển chung quanh Hy Lạp, chiếm các đảo như Crete, Eubeas, Rhodes, Sacconi và Santorini để kiểm soát và làm chủ các hải lộ giao thương quan trọng. Người Ba Tư cho rằng Địa Trung Hải thuộc về lãnh thổ của họ và họ có ý đồ làm chủ tất cả hải lộ tại đây .</p>
+            <p>Đã có nhiều trận chiến xảy ra giữa hai quốc gia này. Ba Tư đã nhiều lần mang quân xâm lăng Hy Lạp, nhưng nhờ tinh thần anh dũng của người dân xứ này mà Hy Lạp vẫn giữ được độc lập. Sau đó, dưới sự chỉ huy của Alexander Đại đế, người Hy Lạp không những đã chinh phục Ba Tư mà còn kiểm soát hơn một nửa thế giới.</p>
+            <p>Các nhà viết sử chỉ biết ca tụng chiến thắng oai hùng của Hy Lạp mà không để ý đến một chi tiết vô cùng quan trọng. Dựa theo các tài liệu cổ thì lúc đó binh lực, vũ khí và chiến thuyền của Ba Tư tối tân hơn Hy Lạp rất nhiều. Trong các trận đánh trên bộ thì số binh lính của Ba Tư nhiều gấp ba lần Hy Lạp nhưng tại sao Ba Tư lại thua thảm hại, hết trận này đến trận khác, và cuối cùng phải quy phục Hy Lạp? Ông có biết vì lý do gì không?</p>
+            <p>Tôi suy nghĩ, rồi lắc đầu:</p>
+            <p>- Tôi không rõ, phải chăng người Hy Lạp đã có những kế hoạch táo bạo hay chiến lược hiệu quả?</p>
+            <p>Giáo sư Baader bật cười:</p>
+            <p>- Không phải thế đâu. Cả hai nước đều có binh lực hùng mạnh và tướng lãnh đại tài. Theo tài liệu sử học thì tinh thần yêu nước của người Hy Lạp lúc đó rất cao. Tại sao thế? Vì văn hóa của họ chú trọng vào tinh thần yêu nước nâng cao sĩ khí của toàn dân. Theo tài liệu thì lúc đó không một binh sĩ Hy Lạp nào mà không thuộc lòng các bài thơ của thi sĩ Homer đề cao các vị anh hùng. Theo tôi, chính những bài thơ, bài hát ca tụng tinh thần bất khuất, can trường của các vị anh hùng như Hercules, Achilles, Agamemnon, Hector, Ulysses… đã khơi dậy tinh thần chiến đấu anh dũng của người Hy Lạp, và đó chính là nguyên nhân quan trọng trong cuộc chiến bảo vệ đất nước. Không phải cứ có binh lính nhiều, vũ khí tốt mà có thể thắng trận, chính tinh thần anh dũng, can đảm, cương quyết, không sợ hãi mới là lý do chính đã đem lại chiến thắng cho quân lực Hy Lạp và đưa nước này lên địa vị hùng cường ít lâu sau khi Alexander Đại đế lên nắm quyền.</p>
+            <p style="text-align: center;">* * *</p>
+            <p>Tôi nhớ lại tất cả những trải nghiệm tiền kiếp của mình cùng những câu chuyện thú vị với ông Kris và giáo sư Baader, tôi đã nghiệm ra được một chân lý. Như vậy, qua nhiều nghiên cứu, thực nghiệm, trải nghiệm thực tế và lịch sử đã chứng minh điều mà trước giờ rất nhiều thế hệ con người, nhiều tôn giáo và nhiều bậc triết học thiên tài đã từng tranh cãi: "Không chỉ có kiếp người mới có luân hồi, tái sinh mà các đế chế, triều đại, các nền văn minh của nhân loại của hành tinh này cũng có những chu kỳ luân hồi - theo một quy luật không có gì là vĩnh hằng mãi mãi" .</p>
+            <br/>
+            <br/>
+    </div>
+
+
+
+
+
+
+    <div id="backtop">
+        <i style="font-size: 20px;" class="fas fa-chevron-up"></i>
+    </div>
+
+
+    <div id="nextpage">
+        <a class="np1" href="phannam.html"><i style="font-size: 20px;" class="fa-solid fa-chevron-left"></i></a>
+        <a class="np2" href="phanbay.html"><i style="font-size: 20px;" class="fa-solid fa-chevron-right"></i></a>
+    </div>
+
+</body>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Tim tat ca cac li co sub-menu va them vao no class has-child
+            $('.sub-menu').parent('li').addClass('has-child');
+
+        });
+
+
+        $(document). ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {
+                    $('#backtop').fadeIn();
+            } else {
+                $('#backtop' ).fadeOut();
+            }
+            });
+            $("#backtop").click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 200);
+            });
+        });
+
+    </script>
+
+
+    
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+
+</html>
